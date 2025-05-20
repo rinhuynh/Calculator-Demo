@@ -86,15 +86,16 @@ public class Calculator extends JFrame implements ActionListener {
 	}
 
 	private double add(double num1, double num2) {
-		return 0;
+		return num1 + num2;
 	}
 
 	private double subtract(double num1, double num2) {
-		return 0;
+		return num1-num2;
 	}
 
 	private double multiply(double num1, double num2) {
-		return 0;
+		return num1 * num2;
+		// Dung sua phep nhan.
 	}
 
 	private double divide(double num1, double num2) {
@@ -102,7 +103,7 @@ public class Calculator extends JFrame implements ActionListener {
 	}
 
 	private double power(double num1, double num2) {
-		return 0;
+		return Math.pow(num1, num2);
 	}
 
 	public static void main(String[] args) {
